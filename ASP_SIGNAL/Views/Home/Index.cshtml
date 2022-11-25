@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center" style="margin-bottom: 25px;">
+    <h1>Welcome</h1>
+    <p>Futuro del pais</p>
+</div>
+
+<div class="text-center" style="font-size: 35px;">
+    <p id="v1">0</p>
+
+</div>
+
+<script>
+    setInterval(function () {
+        siguienteTurno();
+    }, 1000);
+</script>
+
+<script src="~/js/signalr.js"></script>
+<script src=~/js/EjemploComunications.js></script>
